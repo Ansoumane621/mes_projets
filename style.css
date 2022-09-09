@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     background: skyblue;
-   
+   height: 85vh;
 }
 div.body{
    
@@ -10,7 +10,7 @@ div.body{
     padding: 15px;
     width: 30%;
     position: relative;
-    height: 40vh;
+    height: 85vh;
 }
 div.img{
     padding:10px;
@@ -45,7 +45,7 @@ input{
     border-radius: 5px;
     outline: none;
 }
-form{height: 40vh;
+form{height: 50vh;
     text-align: center; 
     
 }
@@ -110,7 +110,6 @@ nav{
         padding: 15px;
         width: 100%;
         position: relative;
-        height: 50vh;
     }
     div.nav label{
         visibility: visible;
