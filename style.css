@@ -1,10 +1,15 @@
-div.body{
+body{
+    margin:0;
+    padding:0;
     background: skyblue;
+}
+div.body{
+   
     margin:auto;
     padding: 15px;
     width: 30%;
     position: relative;
-    height: 80vh;
+    height: 100vh;
 }
 div.img{
     padding:10px;
@@ -19,6 +24,10 @@ div.form{
     margin:auto;
     width: 100%;
     text-align: center; 
+    
+}
+p.footer{
+    margin-bottom:15px;
 }
 input[type="submit"]:hover{
 cursor:pointer;
@@ -35,9 +44,64 @@ input{
     border-radius: 5px;
     outline: none;
 }
-form{
+form{height: 100vh;
     text-align: center; 
+    
 }
+/*mon menu de navigation*/
+nav ul{
+    list-style: none;
+}
+a{  text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align:center;
+    color:skyblue;
+    
+}
+ul li{
+    line-height: 2rem;
+    text-align:center;
+    border-bottom: 1px solid lightgray;
+    margin-left: -40px;
+}
+ul li:hover{
+    background-color: skyblue;
+    
+}
+li:hover a{
+    color:whitesmoke;
+}
+
+div.nav input{
+    display: none;   
+}
+
+
+nav{
+    background-color: azure;
+    width: 100%;
+    border-radius: 10px;
+    margin:auto; 
+}
+div.nav label{
+    top:0;
+    float: right;
+    color:white;
+    font-size: 2rem;
+    visibility: hidden;
+
+}
+div.nav span{
+    font-weight: bold;
+}
+nav{
+    margin-top: 15px;
+    display: none;
+}
+
+/*les media query*/
 @media screen and (max-width:768px){
     div.body{
         background: skyblue;
@@ -45,7 +109,17 @@ form{
         padding: 15px;
         width: 100%;
         position: relative;
-        height: 85vh;
+        height: 100vh;
+    }
+    div.nav label{
+        visibility: visible;
+        margin-top: -5px;
+        
+    }
+    div.nav input:checked+nav{
+        display: block;
+        transition: 5s ease-in;
+        margin-top: 30px;
     }
     div.img{
         padding:10px;
