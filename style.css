@@ -9,7 +9,7 @@ div.body{
     padding: 15px;
     width: 30%;
     position: relative;
-    height: 100vh;
+    height: 50vh;
 }
 div.img{
     padding:10px;
@@ -44,7 +44,7 @@ input{
     border-radius: 5px;
     outline: none;
 }
-form{height: 100vh;
+form{height: 50vh;
     text-align: center; 
     
 }
