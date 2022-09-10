@@ -96,6 +96,9 @@ div.img1 img{
 div.img1 p{
     text-align:center;
 }
+section{
+    height:600px;
+}
 /*les media query*/
 @media screen and (max-width:768px){
     div.body{
