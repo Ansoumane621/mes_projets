@@ -12,8 +12,9 @@ h1{
 section{
     margin:auto;
     width: 80%;
-    height:95vh;
+    min-height: 900px;
 }
+
 section p{
     color:green;
     
